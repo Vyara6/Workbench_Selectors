@@ -1,0 +1,23 @@
+1. Technologies sign/ CSS
+$('h6')
+<h6 _ngcontent-mmk-c2>Technologies:</h6>
+
+2. TS logo/ CSS
+$('img[alt*="upnetix-title"]')
+
+3. Duplicate check
+$$('img[alt*= "upnetix-title"]')
+(3)[img, img, img]
+> 0: img
+> 1: img
+> 2: img
+  lenght: 3
+> [[Prototype]]: Array(0)
+
+4. Head logo / CSS
+$('img[src*= https://d33wubrfki0l68.cloudfront.net/49c2be6f2607b5c12dd27f8ecc8521723447975d/f05c5/logo-small.cbbeba89.svg]')
+<img _ngcontent-mmk-c2 alt="upnetix-title" src="https://d33wubrfki0l68.cloudfront.net/49c2be6…/f05c5/logo-small.cbbeba89.svg">
+
+5. "A" logo/CSS
+$('img[src*= "https://cdn.worldvectorlogo.com/logos/angular-icon.svg"]')
+<img _ngcontent-mmk-c2="" alt="upnetix-title" src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg">
